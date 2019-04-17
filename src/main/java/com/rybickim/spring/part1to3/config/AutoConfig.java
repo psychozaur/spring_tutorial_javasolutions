@@ -1,18 +1,17 @@
-package com.rybickim.spring.config;
+package com.rybickim.spring.part1to3.config;
 
-import com.rybickim.spring.api.IPizza;
-import com.rybickim.spring.implementations.DeliciousPizza;
-import com.rybickim.spring.implementations.TastyPizza;
+import com.rybickim.spring.part1to3.api.IPizza;
+import com.rybickim.spring.part1to3.implementations.DeliciousPizza;
+import com.rybickim.spring.part1to3.implementations.TastyPizza;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Configuration
-@ComponentScan("com.rybickim.spring.implementations")
+@ComponentScan("com.rybickim.spring.part1to3.implementations")
 //@Import(Config.class)
 public class AutoConfig {
 

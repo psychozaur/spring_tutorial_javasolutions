@@ -1,4 +1,4 @@
-package com.rybickim.spring.api;
+package com.rybickim.spring.part1to3.api;
 
 public interface IPizza {
     int getPrice();

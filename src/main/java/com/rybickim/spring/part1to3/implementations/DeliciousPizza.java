@@ -1,9 +1,8 @@
-package com.rybickim.spring.implementations;
+package com.rybickim.spring.part1to3.implementations;
 
-import com.rybickim.spring.api.IPizza;
-import com.rybickim.spring.api.TastyPizza;
+import com.rybickim.spring.part1to3.api.IPizza;
+import com.rybickim.spring.part1to3.api.TastyPizza;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 import java.util.logging.Logger;

@@ -1,10 +1,10 @@
-package com.rybickim.spring.pizzeria;
+package com.rybickim.spring.part1to3.pizzeria;
 
-import com.rybickim.spring.api.IOrder;
-import com.rybickim.spring.config.AutoConfig;
-import com.rybickim.spring.config.Config;
-import com.rybickim.spring.implementations.ExclusiveOrder;
-import com.rybickim.spring.implementations.Order;
+import com.rybickim.spring.part1to3.api.IOrder;
+import com.rybickim.spring.part1to3.config.AutoConfig;
+import com.rybickim.spring.part1to3.config.Config;
+import com.rybickim.spring.part1to3.implementations.ExclusiveOrder;
+import com.rybickim.spring.part1to3.implementations.Order;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class App {
