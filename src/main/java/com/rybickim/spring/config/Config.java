@@ -8,15 +8,15 @@ import com.rybickim.spring.implementations.TastyPizza;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+//@Configuration
 public class Config {
     @Bean
     public IPizza pizza(){
         return new DeliciousPizza(25,"BBQ Fromage");
     }
-
-    @Bean(name = "order2")
-    public IOrder order(IPizza pizza){
-        return new Order(pizza);
-    }
+//
+//    @Bean(name = "order2")
+//    public IOrder order(IPizza pizza){
+//        return new Order(pizza);
+//    }
 }
